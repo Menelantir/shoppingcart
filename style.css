@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap');
+body {
+font-family: 'Red Hat Text', sans-serif;
+margin:0px;
+}
+header {
+text-align: center;
+position: sticky;
+}
+.promo {
+color:white;
+background-color: black;
+font-size: 13px;
+padding:5px;
+
+}
+nav ul {
+list-style: none;
+display: flex;
+flex-direction: row;
+margin-left:20%;
+}
+li {
+padding:20px;
+}
+li a {
+text-decoration: none;
+font-weight: bold;
+}
+li a:visited {
+text-decoration: none;
+color:black;
+}
+li:hover {
+background-color: pink;
+}
+.menu {
+display:flex;
+flex-direction: row;
+
+}
+.menu h1 {
+margin-left:30px;
+font-size: 30px;
+}
+.row {
+display:flex;
+flex-direction: row;
+background-color: pink;
+}
+.row a {
+padding-left:10%;
+text-align: center;
+font-size: 15px;
+color:black;
+text-decoration: none;
+font-weight: bold;
+
+}
+.row a:visited {
+color:black;
+text-decoration: none;
+}
+.row a:hover {
+font-size: 16px;
+}
+
+.cards {
+display: flex;
+justify-content: space-between;
+padding:20px 50px 20px 50px;
+border-bottom: 1px solid gray;
+
+}
+.card {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.btns {
+display:flex;
+flex-direction: row;
+}
+.card h1 {
+
+font-size: 20px;
+text-align: center;
+}
+.card img {
+width:250px;
+}
+.card button {
+border:none;
+background-color: transparent;
+}
+
+.number {
+border:1px solid black;
+font-size: 20px;
+padding:5px 10px 5px 10px;
+
+}
+
+.items img {
+width:200px;
+}
+.items {
+padding:10px;
+display: flex;
+justify-content: space-around;
+border-top:1px solid gray;
+}
+.items h2 {
+font-size: 15px;
+color:gray;
+
+}
+.items button {
+background-color: black;
+color:white;
+border:none;
+width:100px;
+}
+.titlecom {
+font-size: 20px;
+font-weight: bold;
+padding:10px;
+}
+.items span {
+padding-right:20px;
+}
+.firstgift {
+margin-top:50px;
+font-size:15px;
+background-color: pink;
+color:white;
+text-align: center;
+}
+
+.total {
+display: flex;
+flex-direction: column;
+width:20%;
+float:right;
+padding:0px 80px 0px 0px;
+text-align: center;
+align-items: center;
+}
+.total h3 {
+color:gray;
+font-size: 15px;
+}
+.total h2{
+font-size: 15px;
+color:black;
+
+
+}
+.thnx {
+color:hotpink;
+
+}
+.total button {
+background-color: black;
+color:white;
+border:none;
+width:300px;
+height:40px;
+}
+.rev-cards {
+display:flex;
+flex-direction: row;
+padding-left:50px;
+
+}
+.firstrev {
+width:25%;
+background-color: rgb(224, 221, 221);
+padding:15px;
+margin:5px;
+text-align: center;
+
+
+}
+.secondrev {
+width:25%;
+background-color: rgb(224, 221, 221);
+padding:15px;
+margin:5px;
+text-align: center;
+
+
+}
+.thirdrev {
+width:25%;
+background-color: rgb(224, 221, 221);
+padding:15px;
+margin:5px;
+text-align: center;
+}
+.rev-cards h2 {
+color:hotpink;
+font-size: 20px;
+}
+.conquered {
+font-size: 20px;
+padding:20px 0px 0px 0px;
+text-align: center;
+}
+footer {
+display: flex;
+padding-top:50px;
+
+
+}
+footer a {
+text-decoration: none;
+color:white;
+background: black;
+padding:40px;
+border-right:1px solid white;
+height:50px;
+}
+footer a:visited {
+text-decoration: none;
+color:white;
+}
+footer a:hover {
+color:hotpink;
+background-color:white;
+font-weight: bold;
+border-left:1px solid black;
+border-top:1px solid black;
+}
+footer h1 {
+padding: 30px;
+margin:0px 0px 0px 20px;
+text-align: center;
+border:black 1px solid;
+}
+
+.remove {
+color:red;
+
+}
+.red {
+color:red;
+}
+.price {
+padding-bottom:10px;
+font-weight: bold;
+}
