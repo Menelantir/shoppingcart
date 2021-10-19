@@ -47,7 +47,7 @@ for (var i = 0; i < quantity.length; i++) {
 
 total += parseInt(price[i].innerText) * parseInt(quantity[i].innerText)
 }
-totamount.innerHTML = total + (" TND");
+totamount.innerHTML = total
 
 }
 
